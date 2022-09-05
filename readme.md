@@ -1,18 +1,19 @@
-# Kiến thức về HTML
+# Web Technical Test By Nguyen Duc Quan
+## Kiến thức về HTML
 Thẻ <input> thường được sử dụng bên trong thẻ <form>, nó chỉ có thể lấy dữ liệu từ một dòng input của người dùng
 Thẻ <textarea> dùng để lấy dữ liệu phức tạp hơn, thường là nhiều dòng chữ hoặc số từ phía người dùng
 
-# Kiến thức về CSS
-## 1) Liệt kê  5 CSS pseudo class/element
+## Kiến thức về CSS
+### 1) Liệt kê  5 CSS pseudo class/element
 - 5 CSS pseudo class: ...:link, ...:visited, ...:hover, ...:active, ...:first-child
 - 5 CSS pseudo element: ...::first-line, ...::first-letter, ...::before, ...::after, ...::marker
 
-## 2) Sự khác nhau của hệ màu RGBA so với RGB
+### 2) Sự khác nhau của hệ màu RGBA so với RGB
 - Giá trị màu RGBA là phần mở rộng của RGB với kênh A - Alpha (độ mờ) 
 
 
-# Kiến thức về JavaScript
-## 1) Có 4 cách viết vòng lặp for:
+## Kiến thức về JavaScript
+### 1) Có 4 cách viết vòng lặp for:
 - For loop thường: 
 ```
     for (let index = 0; index < array.length; index++) {
@@ -39,7 +40,7 @@ Thẻ <textarea> dùng để lấy dữ liệu phức tạp hơn, thường là 
     }
 ```
 
-## 2) 
+### 2) 
 ```
     function f (){
             let b = 9
@@ -50,17 +51,17 @@ Thẻ <textarea> dùng để lấy dữ liệu phức tạp hơn, thường là 
 ```
 - Đoạn code trên sẽ trả về kết quả là Yah. Vì toán tử ++ đã tăng giá trị của b lên 10, do đó trong câu lệnh if ngắn gọn trên thì 10 < 10 (sai) => return Yah
 
-## 3)
+### 3)
 - Những cách để làm đoạn code trên ngắn gọn là::
 + return thẳng giá trị kết quả về thay vì để vào biến
 + Chặn những trường hợp ngoại lệ (Chữ hoặc số không hợp lệ, số < 0,...) ở đầu function để tránh việc chạy hết if mới trả kết quả "?"
 + Kết hợp với cách viết if ngắn gọn (cú pháp if ? ... : ...) cho từng cặp số (1 vs 2, 3 vs 4,...)
 + Cho tất cả các ký tự Roman vào một array, sau đó trả kết quả về bằng array[decimal_number-1]
 
-## 4)
+### 4)
 - Regular expression có thể match được email: (String)@(String).(2-3 chars) => [a-z0-9]+@[a-z]+\.[a-z]{2,3}
 
-## 5)
+### 5)
 - Kết quả trả về sẽ theo thứ tự như sau:
 ### sequentialStart()
 + Đầu tiên hàm sequentialStart() sẽ được gọi, in ra "==SEQUENTIAL START=="
